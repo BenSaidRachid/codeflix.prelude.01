@@ -1,5 +1,8 @@
-const length = require('./ex03')
-const upperCase = require('./ex02')
+const capitalize = require('./ex04')
 
-console.log(length('Chopper'))
-console.log(upperCase('tonnY'))
+console.log(capitalize('one Code'))
+console.log(capitalize('ONe Code'))
+console.log(capitalize('One CODE'))
+console.log(capitalize('ONe Code', true))
+console.log(capitalize('one Code', true))
+console.log(capitalize('One CODE', true))
