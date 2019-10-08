@@ -1,5 +1,4 @@
-const reverse = require('./ex21')
+const count = require('./ex14')
 
-console.log(reverse("chopper"))
-console.log(reverse("ch0pper"))
-console.log(reverse('gomu'))
+console.log(count("chopper"))
+console.log(count('gomu'))
