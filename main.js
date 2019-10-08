@@ -1,5 +1,4 @@
-const slice = require('./ex13')
+const count = require('./ex15')
 
-console.log(slice('chopper', 1))
-console.log(slice('chopper', -4))
-console.log(slice('ch0pper', 1, 4))
+console.log(count('Tony Tony Chopper', "Tony"))
+console.log(count('gomu gomu no bazooka', "gatling"))
