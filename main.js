@@ -1,4 +1,7 @@
-const count = require('./ex15')
+const repeat = require('./ex20')
 
-console.log(count('Tony Tony Chopper', "Tony"))
-console.log(count('gomu gomu no bazooka', "gatling"))
+console.log(repeat("w"))
+console.log(repeat("w", 3))
+console.log(repeat('gomu', 2))
+console.log(repeat('gomu', 1))
+console.log(repeat('gomu', 0))
