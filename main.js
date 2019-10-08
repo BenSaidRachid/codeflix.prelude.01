@@ -1,8 +1,4 @@
-const capitalize = require('./ex04')
+const decapitalize = require('./ex05')
 
-console.log(capitalize('one Code'))
-console.log(capitalize('ONe Code'))
-console.log(capitalize('One CODE'))
-console.log(capitalize('ONe Code', true))
-console.log(capitalize('one Code', true))
-console.log(capitalize('One CODE', true))
+console.log(decapitalize('Woonan'))
+console.log(decapitalize('El Drago'))
