@@ -1,5 +1,4 @@
-const decapitalize = require('./ex05')
+const substr = require('./ex12')
 
-console.log(decapitalize('woonan'))
-console.log(decapitalize('El Drago'))
-console.log(decapitalize('El DrAgo'))
+console.log(substr('tony tony chopper', 10))
+console.log(substr('ch0pper', 2, 2))
