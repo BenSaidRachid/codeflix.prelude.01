@@ -1,4 +1,4 @@
-const decapitalize = require('./ex05')
+const swapCase = require('./ex08')
 
-console.log(decapitalize('Woonan'))
-console.log(decapitalize('El Drago'))
+console.log(swapCase('One Code'))
+console.log(swapCase('1337 Fruits'))
