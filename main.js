@@ -1,4 +1,5 @@
-const substr = require('./ex12')
+const slice = require('./ex13')
 
-console.log(substr('tony tony chopper', 10))
-console.log(substr('ch0pper', 2, 2))
+console.log(slice('chopper', 1))
+console.log(slice('chopper', -4))
+console.log(slice('ch0pper', 1, 4))
