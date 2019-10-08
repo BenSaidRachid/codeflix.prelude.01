@@ -1,5 +1,5 @@
-const lowerCase = require('./ex01')
+const length = require('./ex03')
 const upperCase = require('./ex02')
 
-console.log(upperCase('Chopper'))
+console.log(length('Chopper'))
 console.log(upperCase('tonnY'))
