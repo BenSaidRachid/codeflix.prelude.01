@@ -1,7 +1,5 @@
-const repeat = require('./ex20')
+const reverse = require('./ex21')
 
-console.log(repeat("w"))
-console.log(repeat("w", 3))
-console.log(repeat('gomu', 2))
-console.log(repeat('gomu', 1))
-console.log(repeat('gomu', 0))
+console.log(reverse("chopper"))
+console.log(reverse("ch0pper"))
+console.log(reverse('gomu'))
