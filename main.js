@@ -1,6 +1,5 @@
-const first = require('./ex11')
+const decapitalize = require('./ex05')
 
-console.log(first('chopper'))
-console.log(first('chopper', 2))
-console.log(first('chopper', 0))
-console.log(first('tony', 8))
+console.log(decapitalize('woonan'))
+console.log(decapitalize('El Drago'))
+console.log(decapitalize('El DrAgo'))
