@@ -1,4 +1,4 @@
-const swapCase = require('./ex08')
+const charAt = require('./ex09')
 
-console.log(swapCase('One Code'))
-console.log(swapCase('1337 Fruits'))
+console.log(charAt('chopper', 0))
+console.log(charAt('chopper', 1))
