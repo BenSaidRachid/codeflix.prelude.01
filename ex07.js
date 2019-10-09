@@ -1,5 +1,7 @@
 module.exports = function snakeCase(str = "") {
-    const SEPARATOR = "_";
-    return str.replace(" ", SEPARATOR)
-    .replace("");
-}
+    return str.replace(/[^a-zA-Z0-9\s_]/g, "")
+    .replace(/([A-Z])/g, " $1")
+    .trim()
+    .replace(/([\s_]+)/g, '_')
+    .toLowerCase();
+} 
