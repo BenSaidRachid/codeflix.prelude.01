@@ -1,3 +1,3 @@
 module.exports = function escapeRegExp(str = "") {
-    return str.replace(/([\[\]\/\{\}\(\)\*\+\?\.\^\\\$\|])/g, "\\$1");
+    return str.replace(/(\W)/g, "\\$1");
 }
