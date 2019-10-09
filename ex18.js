@@ -1,4 +1,4 @@
-module.exports = function indexOf(str = "", search, fromIndexopt = str.length - 1) {
+module.exports = function lastIndexOf(str = "", search, fromIndexopt = str.length - 1) {
     let i = fromIndexopt;
     
 	while (i > 0) {
